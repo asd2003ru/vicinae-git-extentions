@@ -1,4 +1,4 @@
-# Vicinae Git Extensions (veg)
+# Vicinae Git Extensions
 
 A Vicinae plugin for managing extensions from Git repositories: install, update, and remove them.
 

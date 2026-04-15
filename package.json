@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "vicinae-git-extensions",
+  "title": "Vicinae Git Extensions",
+  "description": "Install and update Vicinae extensions from Git repositories",
+  "categories": [
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "author": "asd2003ru",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "vicinae-git-extensions",
+      "title": "Vicinae Git Extensions",
+      "subtitle": "Git extension installer",
+      "description": "Add and update Vicinae extensions from Git repositories",
+      "mode": "view"
+    }
+  ],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "format": "biome format --write src",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.20.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@biomejs/biome": "2.3.2"
+  }
+}
